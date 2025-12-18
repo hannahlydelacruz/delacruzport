@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hannahly Dela Cruz - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="nav-brand">HDC</div>
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>HANNAHLY DELA CRUZ</h1>
+        <p class="hero-subtitle">College Student | BS in Information Technology</p>
+        <p class="hero-description">
+          Motivated and innovative IT student passionate about developing technology solutions
+        </p>
+        <a href="#contact" class="cta-button">Get In Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <p>
+          I am a motivated college student currently pursuing a Bachelor of Science in Information Technology (BSIT). 
+          I am eager to develop my skills in technology, problem-solving, and innovation while gaining hands-on experience 
+          through academic projects and continuous learning.
+        </p>
+        <div class="education-box">
+          <h3>Education</h3>
+          <p><strong>Bachelor of Science in Information Technology (BSIT)</strong></p>
+          <p>College Student</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Programming</h3>
+          <p>Basic Programming (Python, Java, or C++)</p>
+        </div>
+        <div class="skill-card">
+          <h3>Web Development</h3>
+          <p>Web Development Fundamentals (HTML, CSS)</p>
+        </div>
+        <div class="skill-card">
+          <h3>Computer Literacy</h3>
+          <p>Computer Literacy and Troubleshooting</p>
+        </div>
+        <div class="skill-card">
+          <h3>Problem Solving</h3>
+          <p>Problem Solving and Logical Thinking</p>
+        </div>
+        <div class="skill-card">
+          <h3>Soft Skills</h3>
+          <p>Teamwork and Communication Skills</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-icon">📚</div>
+          <h3>Academic Projects</h3>
+          <p>Simple system or application developed as part of coursework demonstrating fundamental IT concepts.</p>
+        </div>
+        <div class="project-card">
+          <div class="project-icon">🌐</div>
+          <h3>Web Development</h3>
+          <p>Basic website or program demonstrating IT fundamentals with HTML, CSS, and JavaScript.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Career Goals Section -->
+  <section class="career-goals">
+    <div class="container">
+      <h2>Career Goals</h2>
+      <p>
+        To become a skilled IT professional who contributes to innovative technology solutions 
+        while continuously learning and improving technical expertise.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Information</h2>
+      <div class="contact-content">
+        <div class="contact-item">
+          <h3>Email</h3>
+          <a href="mailto:dumberbells424@gmail.com">dumberbells424@gmail.com</a>
+        </div>
+        <div class="contact-item">
+          <h3>Location</h3>
+          <p>Philippines</p>
+        </div>
+      </div>
+      <p class="contact-note">Feel free to reach out for opportunities, collaborations, or just a friendly chat!</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Hannahly Dela Cruz. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  
+  <script type="module">
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+    Chatbot.init({
+        chatflowid: "4c4c94b7-e6a6-4673-9937-3b8a280d4ed1",
+        apiHost: "https://cloud.flowiseai.com",
+    })
+  </script>
+</body>
+</html>
